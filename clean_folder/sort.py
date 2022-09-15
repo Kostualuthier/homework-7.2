@@ -129,10 +129,9 @@ def check_clear_dir(namedir):
         for el in lists:
             path_el = os.path.join(namedir, el)
             if os.path.isdir(path_el):
-            if os.path.isdir(path_el):
                 check_clear_dir(path_el)
 
-if __name__ == '__main__':
+def clear_folder():
     name_folder = get_dir_name()
     sorting_dir(name_folder)
     check_clear_dir(name_folder)
