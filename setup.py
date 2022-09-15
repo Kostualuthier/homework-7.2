@@ -10,5 +10,5 @@ setup(
     license='MIT',
     packages=find_namespace_packages(),
     install_requires=['shutil', 'sys', 'os', 'datetime'],
-    entry_points={'console_scripts': ['clean-folder = useful.sort:get_dir_name']}
+    entry_points={'console_scripts': ['clean-folder = useful.sort:clear_folder']}
 )
